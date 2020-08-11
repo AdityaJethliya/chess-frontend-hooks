@@ -13,7 +13,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 
 // import MenuIcon from '@material-ui/icons/Menu';
-const ENDPOINT = "http://localhost:5000/"
+const ENDPOINT = "https://chess-anywhere.herokuapp.com/"
 const socket = io(ENDPOINT);
 
 
